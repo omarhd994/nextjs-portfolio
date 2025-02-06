@@ -16,8 +16,11 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      primary: colors.sky,      // Un azul más suave y moderno
+      secondary: colors.slate,  // Una combinación de grises azulados para contraste elegante
+      accent: colors.blue,      // Azul puro para destacar elementos clave
+      background: colors.white, // Fondo blanco para mantener la limpieza
+      text: colors.gray,        // Texto en tonos grises para buena legibilidad
     },
   },
   plugins: [],
