@@ -21,20 +21,18 @@ const EmailSection = () => {
 
     // Call the EmailJS API to send the email
     try {
-      const response = await fetch(
-        `https://api.emailjs.com/api/v1.0/email/send`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            service_id: "service_6gg7469",
-            template_id: "template_ng0lr5i",
-            user_id: "hLv4Z6yOmS9fRGkKJ",
-            template_params: data,
-          }),
-        }
-      );
+    const response = await fetch(`https://api.emailjs.com/api/v1.0/email/send`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        service_id: process.env.NEXT_PUBLIC_SERVICE_ID,
+        template_id: process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        user_id: process.env.NEXT_PUBLIC_USER_ID,
+        template_params: data,
+      }),
+    });
 
       if (response.ok) {
         console.log("Message sent.");
