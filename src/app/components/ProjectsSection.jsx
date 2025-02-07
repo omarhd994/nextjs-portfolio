@@ -54,7 +54,7 @@ const projectsData = [
     id: 6,
     title: "Trending Movies & Series Web App 🍿",
     description: "Explore the latest trending movies and series 🎬📺 with up-to-date information and recommendations.",
-    image: "/images/projects/6.png",
+    image: "/images/projects/movieapp2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://movie-app-sigma-ruddy.vercel.app/",

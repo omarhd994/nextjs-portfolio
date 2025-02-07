@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>React, React Native, Next.js, Figma (UI/UX Design)</li>
+        <li>Tailwind, Nativewind, CSS, HTML</li>
+        <li>WordPress, Google Search Console, SEO Optimization</li>
+        <li>Vercel, Netlify, Google Play Store (Deployment)</li>
+        <li>Product Lifecycle Management</li>
+        <li>VS Code, v0, Cursor AI, AI APIs Integration</li>
       </ul>
     ),
   },
@@ -23,9 +23,12 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Master in Web and Mobile Development | European University of Madrid, Spain</li>
+        <li>Bachelor in HR Management & Statistics | Campus du CERIA of Brussels, Belgium</li>
+        <li>Bachelor in Computer Engineering | Free University of Brussels, Belgium</li>
+        <li>Higher Secondary Education in Business Management & Accounting | IFM Brussels, Belgium</li>
       </ul>
+
     ),
   },
   {
@@ -33,8 +36,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>MERN Full Stack Course | Udemy</li>
+        <li>Product Management & Agile Methodologies | Udemy</li>
+        <li>Back-end Course: Node.js, REST API & Express.js | Platzi</li>
+        <li>Version Control Course: Git & Github | Platzi</li>
+        <li>Basic web design & development Course | Platzi</li>
       </ul>
     ),
   },
@@ -53,17 +59,34 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/setup1.jpeg" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+  <Image 
+    src="/images/setup.jpg" 
+    width={500} 
+    height={500} 
+    className="rounded-lg shadow-lg" 
+  />
+  <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
-          </p>
+  I’m a multilingual tech enthusiast with experience in mobile and web development, leading applications from ideation and MVP design to launch.
+</p>
+<br/>
+<p className="text-base lg:text-lg">
+  I hold a Master’s in Web and Mobile Development and am currently completing a Product Management certification.
+</p>
+<br/>
+<p className="text-base lg:text-lg">
+  My background in talent management has enhanced my ability to align business needs with team dynamics and drive collaboration.
+</p>
+<br/>
+<p className="text-base lg:text-lg">
+  Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, strengthening my communication and leadership skills.
+</p>
+
+
+
+
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

@@ -58,14 +58,17 @@ const EmailSection = () => {
           Let&apos;s Connect!
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I’m a Full Stack and React Native Developer passionate about creating impactful products. With experience leading projects from idea to launch, I focus on deployment and user feedback.
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          My background in HR, IT, and a Master’s in Software Development has shaped my strong problem-solving skills. I thrive in both team and independent settings.
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-        Having worked in the Swiss, Belgian, Spanish, and French markets, I’m fluent in English, French, and Spanish, with an intermediate level in Dutch and German, which has strengthened my collaboration and communication skills.
-        </p>
+  <strong>Motivated tech enthusiast</strong>, deeply passionate about SaaS, Web, and Mobile development, as well as product management.
+</p>
+<p className="text-[#ADB7BE] mb-4 max-w-md">
+  Always exploring the latest trends like AI, Automation, and beyond..
+</p>
+<p className="text-[#ADB7BE] mb-4 max-w-md">
+  Always open to new challenges and opportunities. Let’s connect and create something meaningful together!
+</p>
+
+
+
         <div className="socials flex flex-row gap-4">
           <Link href="https://github.com/omarhd994">
             <Image src={GithubIcon} alt="Github Icon" />
@@ -112,7 +115,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Topic"
               />
             </div>
             <div className="mb-6">
@@ -126,7 +129,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Tell me what you're reaching out for"
               />
             </div>
             <button
