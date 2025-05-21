@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React, React Native, Next.js, Figma (UI/UX Design)</li>
-        <li>Tailwind, Nativewind, CSS, HTML</li>
-        <li>WordPress, Google Search Console, SEO Optimization</li>
-        <li>Vercel, Netlify, Google Play Store (Deployment)</li>
-        <li>Product Lifecycle Management</li>
-        <li>VS Code, v0, Cursor AI, AI APIs Integration</li>
+        <li>Python, SQL, PySpark, Azure, Data Factory, Databricks, Synapse, Git/GitHub</li>
+        <li>Shell, React, React Native, Next.js, JavaScript, Node.js</li>
+        <li>HTML, CSS, Tailwind, Nativewind</li>
+        <li>Google Vision API, GPT API Integration, DeepSeek API</li>
+        <li>VS Code, Cursor AI, Make</li>
+        <li>Netlify, Vercel, Google Play Store (Deployment)</li>
       </ul>
     ),
   },
@@ -23,12 +23,12 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+        <li>Data Engineer Bootcamp | Udemy - Online Learning Platform</li>
         <li>Master in Web and Mobile Development | European University of Madrid, Spain</li>
         <li>Bachelor in HR Management & Statistics | Campus du CERIA of Brussels, Belgium</li>
-        <li>Bachelor in Computer Engineering | Free University of Brussels, Belgium</li>
-        <li>Higher Secondary Education in Business Management & Accounting | IFM Brussels, Belgium</li>
+        <li>Bachelor in Computer Engineering (Incomplete) | Free University of Brussels</li>
+        <li>Higher Secondary Education in Business Management & Accounting | IFM Brussels</li>
       </ul>
-
     ),
   },
   {
@@ -36,11 +36,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>MERN Full Stack Course | Udemy</li>
+        <li>Data Engineer Bootcamp | Udemy - Online Learning Platform</li>
         <li>Product Management & Agile Methodologies | Udemy</li>
-        <li>Back-end Course: Node.js, REST API & Express.js | Platzi</li>
-        <li>Version Control Course: Git & Github | Platzi</li>
-        <li>Basic web design & development Course | Platzi</li>
+        <li>Version Control with Git & GitHub | Platzi</li>
+        <li>Basic Software Design & Development | Platzi</li>
       </ul>
     ),
   },
@@ -68,20 +67,21 @@ const AboutSection = () => {
   <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-  I’m a multilingual tech enthusiast with experience in mobile and web development, leading applications from ideation and MVP design to launch.
+  I’m a multilingual tech enthusiast with experience in building data pipelines, software solutions, and full-stack applications from ideation to deployment.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
-  I hold a Master’s in Web and Mobile Development and am currently completing a Product Management certification.
+  I hold a Master’s in Web and Mobile Development and completed a Data Engineering Bootcamp focused on the Data Engineering fundamentals, SQL, Python, Cloud, Airflow and PySpark.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
-  My background in talent management has enhanced my ability to align business needs with team dynamics and drive collaboration.
+  My background in talent management has enhanced my ability to align technical solutions with business needs and collaborate across cross-functional teams.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
   Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, strengthening my communication and leadership skills.
 </p>
+
 
 
 

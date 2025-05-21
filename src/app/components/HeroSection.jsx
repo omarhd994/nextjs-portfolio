@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Omar Haddia",
                 1000,
-                "Mobile & Web Developer",
+                "Data Engineer",
                 1000,
-                "Product Manager/ Owner",
+                "Software Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -35,8 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I’m a multilingual tech enthusiast with expertise in developing
-            and leading web and mobile applications from ideation to launch.
+            I’m a multilingual tech enthusiast with hands-on experience building end-to-end data pipelines and software solutions, from design to deployment.
           </p>
           <div>
             <Link
@@ -46,7 +45,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-              href="/cvomar.pdf" // Updated file name
+              href="/CV-omar-haddia.pdf" // Updated file name
               download
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >

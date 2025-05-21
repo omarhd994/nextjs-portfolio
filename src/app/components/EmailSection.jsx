@@ -55,15 +55,18 @@ const EmailSection = () => {
       <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect!
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-  <strong>Motivated tech enthusiast</strong>, deeply passionate about SaaS, Web, and Mobile development, as well as product management.
-</p>
-<p className="text-[#ADB7BE] mb-4 max-w-md">
-  Always exploring the latest trends like AI, Automation, and beyond..
-</p>
-<p className="text-[#ADB7BE] mb-4 max-w-md">
-  Always open to new challenges and opportunities. Let’s connect and create something meaningful together!
-</p>
+        <>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            <strong>Passionate about data and building things that work.</strong> I am diving deep into Data Engineering, combining my background in software development with a strong interest in data pipelines, automation, and cloud technologies.
+          </p>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            I enjoy working with tools like Python, SQL, and PySpark, and I am constantly learning about scalable data solutions and modern data stacks.
+          </p>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            Excited to grow in the data space and contribute to teams solving real-world challenges. Let&apos;s connect and turn data into impact!
+          </p>
+        </>
+
 
 
 
