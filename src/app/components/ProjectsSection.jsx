@@ -11,7 +11,7 @@ const projectsData = [
     description: "Built an Azure pipeline to ingest on-prem SQL Server data, transform with PySpark, and visualize in Power BI.",
     image: "/images/projects/on-prem-azure.png",
     tag: ["All", "Data"],
-    gitUrl: "https://github.com/omarhd994",
+    gitUrl: "https://github.com/omarhd994/migrating-on-prem-database-to-azure",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     description: "Scalable Azure data pipeline using Data Factory, Databricks, and Synapse to process global earthquake data.",
     image: "/images/projects/earthquake.png",
     tag: ["All", "Data"],
-    gitUrl: "https://github.com/omarhd994",
+    gitUrl: "https://github.com/omarhd994/Earthquake-azure-data-pipeline",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Designed a layered data warehouse with SQL and ETL pipelines to enable clean reporting and analysis.",
     image: "/images/projects/on-prem.png",
     tag: ["All", "Data"],
-    gitUrl: "https://github.com/omarhd994",
+    gitUrl: "https://github.com/omarhd994/Data-Warehouse-SQL-Project",
     previewUrl: "/",
   },
   {
