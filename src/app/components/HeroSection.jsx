@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Omar Haddia",
                 1000,
-                "Data Engineer",
+                "Product Manager",
                 1000,
-                "Software Engineer",
+                "Product Owner",
                 1000,
               ]}
               wrapper="span"
@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I’m a multilingual tech enthusiast with hands-on experience building end-to-end data pipelines and software solutions, from design to deployment.
+            I’m a multilingual tech enthusiast with hands-on experience building AI-integrated Web and Mobile apps, from market research and design to monetization and launch.
           </p>
           <div>
             <Link
