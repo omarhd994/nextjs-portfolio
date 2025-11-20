@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Python, SQL, PySpark, Azure, Data Factory, Databricks, Synapse, Git/GitHub</li>
-        <li>Shell, React, React Native, Next.js, JavaScript, Node.js</li>
-        <li>HTML, CSS, Tailwind, Nativewind</li>
-        <li>Google Vision API, GPT API Integration, DeepSeek API</li>
-        <li>VS Code, Cursor AI, Make</li>
-        <li>Netlify, Vercel, Google Play Store (Deployment)</li>
+        <li>Mobile & Web Development, AI Integration</li>
+        <li>React Native, Expo, React,, Node.js, Python, SQL, Git/GitHub, Shell, JavaScript</li>
+        <li>Google Vision API, Openai API, DeepSeek API</li>
+        <li>VS Code, Cursor AI, Claude Code, Make</li>
+        <li>App Store Connect, Google Play Console, Netlify, Vercel</li>
+        <li>ASO, SEO, Market Research, Design, Backlog management & Recruitment</li>
       </ul>
     ),
   },
@@ -23,7 +23,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Data Engineer Bootcamp | Udemy - Online Learning Platform</li>
         <li>Master in Web and Mobile Development | European University of Madrid, Spain</li>
         <li>Bachelor in HR Management & Statistics | Campus du CERIA of Brussels, Belgium</li>
         <li>Bachelor in Computer Engineering (Incomplete) | Free University of Brussels</li>
@@ -36,8 +35,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Data Engineer Bootcamp | Udemy - Online Learning Platform</li>
-        <li>Product Management & Agile Methodologies | Udemy</li>
+        <li>Scrum & Kanban Certification | SCRUMstudy</li>
+        <li>Product Management | Udemy</li>
+        <li>React Native & MERN Stack Certification | Udemy</li>
         <li>Version Control with Git & GitHub | Platzi</li>
         <li>Basic Software Design & Development | Platzi</li>
       </ul>
@@ -67,15 +67,15 @@ const AboutSection = () => {
   <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-  I’m a multilingual tech enthusiast with experience in building data pipelines, software solutions, and full-stack applications from ideation to deployment.
+  I’m a multilingual tech enthusiast with experience in building mobile & web solutions powered by AI, from ideation to deployment.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
-  I hold a Master’s in Web and Mobile Development and completed a Data Engineering Bootcamp focused on the Data Engineering fundamentals, SQL, Python, Cloud, Airflow and PySpark.
+  I hold a Master’s in Web and Mobile Development and am certified as a Product Manager, as well as in Scrum and Kanban.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
-  My background in talent management has enhanced my ability to align technical solutions with business needs and collaborate across cross-functional teams.
+  My experience as an Internal Product Owner and Talent Manager has strengthened my ability to align technical solutions with business objectives and collaborate effectively across cross-functional teams.
 </p>
 <br/>
 <p className="text-base lg:text-lg">
