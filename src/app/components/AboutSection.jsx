@@ -65,25 +65,19 @@ const AboutSection = () => {
     className="rounded-lg shadow-lg" 
   />
   <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-  I’m a multilingual tech enthusiast with experience in building mobile & web solutions powered by AI, from ideation to deployment.
-</p>
-<br/>
-<p className="text-base lg:text-lg">
-  I hold a Master’s in Web and Mobile Development and am certified as a Product Manager, as well as in Scrum and Kanban.
-</p>
-<br/>
-<p className="text-base lg:text-lg">
-  My experience as an Internal Product Owner and Talent Manager has strengthened my ability to align technical solutions with business objectives and collaborate effectively across cross-functional teams.
-</p>
-<br/>
-<p className="text-base lg:text-lg">
-  Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, strengthening my communication and leadership skills.
-</p>
-
-
-
+  <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+  <p className="text-base lg:text-lg mb-4">
+    I’m a multilingual tech enthusiast with experience in building mobile and web solutions powered by AI, managing full product lifecycles from ideation to deployment, launch, and marketing. Skilled in <strong>App Store Optimization (ASO), SEO, competitor analysis, and market research</strong>, I leverage data-driven insights to define product strategies and deliver solutions that stand out in competitive markets.
+  </p>
+  <p className="text-base lg:text-lg mb-4">
+    I hold a Master’s in Web and Mobile Development and am certified as a <strong>Product Manager</strong>, as well as in <strong>Scrum and Kanban</strong>.
+  </p>
+  <p className="text-base lg:text-lg mb-4">
+    My experience as an <strong>Internal Product Manager and Talent Manager</strong> has strengthened my ability to align technical solutions with business objectives and collaborate effectively across <strong>cross-functional teams</strong>.
+  </p>
+  <p className="text-base lg:text-lg mb-4">
+    Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, further developing my communication and leadership skills while building and leading IT teams across web, mobile, CMS, frontend, backend, fullstack, and data engineering roles.
+  </p>
 
 
 

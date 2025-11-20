@@ -55,17 +55,22 @@ const EmailSection = () => {
       <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect!
         </h5>
-        <>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            <strong>Passionate about data and building things that work.</strong> I am diving deep into Data Engineering, combining my background in software development with a strong interest in data pipelines, automation, and cloud technologies.
-          </p>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            I enjoy working with tools like Python, SQL, and PySpark, and I am constantly learning about scalable data solutions and modern data stacks.
-          </p>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            Excited to grow in the data space and contribute to teams solving real-world challenges. Let&apos;s connect and turn data into impact!
-          </p>
-        </>
+      <>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          <strong>Passionate about building impactful products powered by AI.</strong> I combine my experience as a Product Manager and indie app developer to deliver solutions that align business goals with technology.
+        </p>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          I enjoy creating web and mobile applications, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries. 
+        </p>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          Skilled in ASO, SEO, competitor analysis, and market research, I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
+        </p>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          Excited to grow in product innovation, lead tech teams, and contribute to projects that solve real-world problems. Let&apos;s connect and build something great together!
+        </p>
+      </>
+
+
 
 
 
