@@ -31,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          
+
           {/*  
           <Image
             src="/images/logoOH.png" // Ruta relativa al directorio 'public'

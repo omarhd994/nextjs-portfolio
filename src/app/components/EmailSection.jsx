@@ -21,18 +21,18 @@ const EmailSection = () => {
 
     // Call the EmailJS API to send the email
     try {
-    const response = await fetch(`https://api.emailjs.com/api/v1.0/email/send`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        service_id: process.env.NEXT_PUBLIC_SERVICE_ID,
-        template_id: process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        user_id: process.env.NEXT_PUBLIC_USER_ID,
-        template_params: data,
-      }),
-    });
+      const response = await fetch(`https://api.emailjs.com/api/v1.0/email/send`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          service_id: process.env.NEXT_PUBLIC_SERVICE_ID,
+          template_id: process.env.NEXT_PUBLIC_TEMPLATE_ID,
+          user_id: process.env.NEXT_PUBLIC_USER_ID,
+          template_params: data,
+        }),
+      });
 
       if (response.ok) {
         console.log("Message sent.");
@@ -52,23 +52,23 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-      <h5 className="text-xl font-bold text-white my-2">
+        <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect!
         </h5>
-      <>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          <strong>Passionate about building impactful products powered by AI.</strong> I combine my experience as a Product Manager and indie app developer to deliver solutions that align business goals with technology.
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I enjoy creating web and mobile applications, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries. 
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Skilled in ASO, SEO, competitor analysis, and market research, I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
-        </p>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Excited to grow in product innovation, lead tech teams, and contribute to projects that solve real-world problems. Let&apos;s connect and build something great together!
-        </p>
-      </>
+        <>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            <strong>Passionate about building impactful products powered by AI.</strong> I combine my experience as a Product Manager and indie app developer to deliver solutions that align business goals with technology.
+          </p>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            I enjoy creating web and mobile applications, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries.
+          </p>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            Skilled in ASO, SEO, competitor analysis, and market research, I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
+          </p>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            Excited to grow in product innovation, lead tech teams, and contribute to projects that solve real-world problems. Let&apos;s connect and build something great together!
+          </p>
+        </>
 
 
 
