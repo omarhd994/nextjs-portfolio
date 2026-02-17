@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I’m a multilingual tech enthusiast with hands-on experience building AI-integrated Web and Mobile apps, from market research and design to monetization and launch.
+            Multilingual Product Manager with hands-on experience building scalable Software and Data products focused on outcomes, backed by a strong technical background.
           </p>
           <div>
             <Link
@@ -45,7 +45,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-              href="/cvomar.pdf" // Updated file name
+              href="/omarcv2026.pdf" // Updated file name
               download
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >

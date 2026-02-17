@@ -9,8 +9,8 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Product Management, Roadmap & Backlog management</li>
         <li>Mobile & Web Development, AI Integration</li>
-        <li>React Native, Expo, React,, Node.js, Python, SQL, Git/GitHub, Shell, JavaScript</li>
         <li>Google Vision API, Openai API, DeepSeek API</li>
         <li>VS Code, Cursor AI, Claude Code, Make</li>
         <li>App Store Connect, Google Play Console, Netlify, Vercel</li>
@@ -24,8 +24,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Master in Web and Mobile Development | European University of Madrid, Spain</li>
+        <li>Bachelor in Computer Engineering | Free University of Brussels</li>
         <li>Bachelor in HR Management & Statistics | Campus du CERIA of Brussels, Belgium</li>
-        <li>Bachelor in Computer Engineering (Incomplete) | Free University of Brussels</li>
         <li>Higher Secondary Education in Business Management & Accounting | IFM Brussels</li>
       </ul>
     ),
@@ -37,6 +37,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Scrum & Kanban Certification | SCRUMstudy</li>
         <li>Product Management | Udemy</li>
+        <li>Master in Data Engineering | Udemy</li>
         <li>React Native & MERN Stack Certification | Udemy</li>
         <li>Version Control with Git & GitHub | Platzi</li>
         <li>Basic Software Design & Development | Platzi</li>
@@ -67,16 +68,16 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg mb-4">
-            I’m a multilingual tech enthusiast with experience in building mobile and web solutions powered by AI, managing full product lifecycles from ideation to deployment, launch, and marketing. Skilled in <strong>App Store Optimization (ASO), SEO, competitor analysis, and market research</strong>, I leverage data-driven insights to define product strategies and deliver solutions that stand out in competitive markets.
+            I’m a multilingual <strong>Product Manager & Product Owner</strong> with a strong technical background, experienced in building <strong>Data, AI, SaaS, and Mobile products</strong> across both B2B and B2C environments. I lead full product lifecycles end-to-end from problem discovery and market research to roadmap definition, delivery, launch, and iteration always focusing on measurable impact and user value.
           </p>
           <p className="text-base lg:text-lg mb-4">
-            I hold a Master’s in Web and Mobile Development and am certified as a <strong>Product Manager</strong>, as well as in <strong>Scrum and Kanban</strong>.
+            With a foundation in <strong>software and data engineering</strong>, I collaborate closely with technical teams to translate business needs into scalable solutions, balancing product vision with execution constraints. My experience spans AI-powered systems, data platforms, internal automation tools, and mobile applications designed for operational efficiency and growth.
           </p>
           <p className="text-base lg:text-lg mb-4">
-            My experience as a <strong>Product Manager and Talent Manager</strong> has strengthened my ability to align technical solutions with business objectives and collaborate effectively across <strong>cross-functional teams</strong>.
+            I hold a Master’s in Web and Mobile Development and certifications in <strong>Product Management, Scrum, and Kanban</strong>, supporting a structured and outcome driven approach to product delivery.
           </p>
           <p className="text-base lg:text-lg mb-4">
-            Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, further developing my communication and leadership skills while building and leading IT teams across web, mobile, CMS, frontend, backend, fullstack, and data engineering roles.
+            Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, strengthening my ability to operate in international environments and align cross-functional teams around shared goals.
           </p>
 
 

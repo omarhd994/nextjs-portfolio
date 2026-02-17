@@ -57,13 +57,13 @@ const EmailSection = () => {
         </h5>
         <>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
-            <strong>Passionate about building impactful products powered by AI.</strong> I combine my experience as a Product Manager and indie app developer to deliver solutions that align business goals with technology.
+            <strong>Passionate about building impactful products.</strong> I combine my experience as a Product Manager and software developer to deliver solutions that align business goals with technology.
           </p>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
-            I enjoy creating web and mobile applications, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries.
+            I enjoy creating software and data products, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries.
           </p>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
-            Skilled in ASO, SEO, competitor analysis, and market research, I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
+            Skilled in Software knowledge, market research, and backlog management. I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
           </p>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
             Excited to grow in product innovation, lead tech teams, and contribute to projects that solve real-world problems. Let&apos;s connect and build something great together!
