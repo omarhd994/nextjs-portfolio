@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Omar Haddia",
                 1000,
-                "Product Manager",
+                "AI Engineer",
                 1000,
-                "Product Owner",
+                "Product Builder",
                 1000,
               ]}
               wrapper="span"
@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Multilingual Product Manager with hands-on experience building scalable Software and Data products focused on outcomes, backed by a strong technical background.
+            Multilingual AI Engineer & Product Builder with hands-on experience building LLM-powered applications, NLP systems, AI agents, and scalable software solutions that deliver measurable business impact.
           </p>
           <div>
             <Link

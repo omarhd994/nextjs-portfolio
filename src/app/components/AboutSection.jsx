@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Product Management, Roadmap & Backlog management</li>
-        <li>Mobile & Web Development, AI Integration</li>
-        <li>Google Vision API, Openai API, DeepSeek API</li>
-        <li>VS Code, Cursor AI, Claude Code, Make</li>
-        <li>App Store Connect, Google Play Console, Netlify, Vercel</li>
-        <li>ASO, SEO, Market Research, Design, Backlog management & Recruitment</li>
+        <li>LLMs, AI Agents, RAG Pipelines & Natural Language Processing (NLP)</li>
+        <li>Python, JavaScript, React, React Native, Node.js & SQL</li>
+        <li>LangChain, LangGraph, Pinecone, ChromaDB, PySpark, Pandas</li>
+        <li>OpenAI, Gemini, Hugging Face, OpenCode & Claude Code</li>
+        <li>VS Code, Claude Code, Open Code, Git, Make, Vercel & Netlify</li>
+        <li>Product Strategy, UI/UX, Cloud, App Store Connect, Google Play Console</li>
       </ul>
     ),
   },
@@ -35,9 +35,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Scrum & Kanban Certification | SCRUMstudy</li>
-        <li>Product Management | Udemy</li>
+        <li>Associate AI Engineer | DataCamp</li>
         <li>Master in Data Engineering | Udemy</li>
+        <li>Product Management | Udemy</li>
         <li>React Native & MERN Stack Certification | Udemy</li>
         <li>Version Control with Git & GitHub | Platzi</li>
         <li>Basic Software Design & Development | Platzi</li>
@@ -68,16 +68,19 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg mb-4">
-            I’m a multilingual <strong>Product Manager & Product Owner</strong> with a strong technical background, experienced in building <strong>Data, AI, SaaS, and Mobile products</strong> across both B2B and B2C environments. I lead full product lifecycles end-to-end from problem discovery and market research to roadmap definition, delivery, launch, and iteration always focusing on measurable impact and user value.
+            I’m a multilingual <strong>AI Engineer & Product Builder</strong> specializing in designing, building, and deploying <strong>LLM-powered applications, AI agents, NLP systems, and SaaS products</strong>. I combine software engineering, AI, and product thinking to transform complex business problems into scalable, production-ready solutions with measurable business impact.
           </p>
+
           <p className="text-base lg:text-lg mb-4">
-            With a foundation in <strong>software and data engineering</strong>, I collaborate closely with technical teams to translate business needs into scalable solutions, balancing product vision with execution constraints. My experience spans AI-powered systems, data platforms, internal automation tools, and mobile applications designed for operational efficiency and growth.
+            My experience spans <strong>Generative AI, Natural Language Processing (NLP), Retrieval-Augmented Generation (RAG), vector databases, AI orchestration, data platforms, and full-stack development</strong>. I build end-to-end AI systems, from document ingestion and semantic retrieval to AI agents, backend services, mobile applications, and intuitive user experiences.
           </p>
+
           <p className="text-base lg:text-lg mb-4">
-            I hold a Master’s in Web and Mobile Development and certifications in <strong>Product Management, Scrum, and Kanban</strong>, supporting a structured and outcome driven approach to product delivery.
+            I hold a Master’s in Web and Mobile Development and certifications in <strong>AI Engineering, Software, Data, and Product Management</strong>, enabling me to bridge business strategy with technical execution and deliver user-centric AI products.
           </p>
+
           <p className="text-base lg:text-lg mb-4">
-            Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, strengthening my ability to operate in international environments and align cross-functional teams around shared goals.
+            Fluent in <span className="font-semibold">French, English, and Spanish</span>, I’ve worked across Switzerland, Belgium, France, and Spain, collaborating with international and cross-functional teams to deliver innovative AI and software solutions.
           </p>
 
 

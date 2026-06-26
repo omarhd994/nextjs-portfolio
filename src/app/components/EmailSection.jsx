@@ -55,20 +55,23 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect!
         </h5>
-        <>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            <strong>Passionate about building impactful products.</strong> I combine my experience as a Product Manager and software developer to deliver solutions that align business goals with technology.
-          </p>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            I enjoy creating software and data products, managing full product lifecycles from ideation to launch and marketing, and collaborating with cross-functional teams across different countries.
-          </p>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            Skilled in Software knowledge, market research, and backlog management. I leverage data-driven insights to define product strategies, optimize user acquisition, and deliver solutions that stand out in competitive markets.
-          </p>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            Excited to grow in product innovation, lead tech teams, and contribute to projects that solve real-world problems. Let&apos;s connect and build something great together!
-          </p>
-        </>
+       <>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          <strong>Passionate about building AI products.</strong> I combine software engineering, AI, and product thinking to design and deliver scalable applications powered by LLMs, NLP, RAG pipelines, and AI agents.
+        </p>
+
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          I enjoy building end-to-end AI systems, from document ingestion, vector databases, semantic search, and backend services to intuitive web and mobile experiences that solve real business problems.
+        </p>
+
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          Experienced in Python, React, React Native, Node.js, Hugging Face Transformers, LangChain, LangGraph, OpenAI, Gemini, and modern AI architectures, combining engineering expertise with product strategy to deliver scalable, production-ready solutions.
+        </p>
+
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          I enjoy collaborating with cross-functional teams, continuously learning new AI technologies, and building innovative products that create measurable business impact. Let&apos;s connect and build something great together!
+        </p>
+      </>
 
 
 
