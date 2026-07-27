@@ -5,12 +5,20 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
-    id: 0,
+{
+  id: 0,
+  title: "Smart Travel Assistant ✈️📞",
+  description: "Intelligent travel assistant for booking policies, destinations, weather, currency conversion, and trip planning via voice or chat.",  image: "/images/projects/travelassistant.jpeg",
+  tag: ["All", "AI", "Web"],
+  gitUrl: "https://github.com/omarhd994",
+  previewUrl: "https://ai-agent-app-eosin.vercel.app/",
+},
+{
+    id: 1,
     title: "FishEye - Fishing Spot Finder 🎣", 
     description: "Fishing spot finder designed to help anglers discover the best Fishing spots using AI Image recognition for Spot analysis",
     image: "/images/projects/fisheyee.jpg",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://apps.apple.com/ar/app/fisheye-fishing-spot-finder/id6759035076",
   },
@@ -19,7 +27,7 @@ const projectsData = [
     title: "FixioCar - AI Car Mechanic 📱🔧",
     description: "AI-powered Mechanical Assistant 🧑‍🔧 for diagnosing car and mechanical issues from photos and text.",
     image: "/images/projects/fixifixiocar.jpg",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://apps.apple.com/us/app/your-mechanic-ai-fixiocar/id6754289570",
   },
@@ -37,7 +45,7 @@ const projectsData = [
     title: "ModyCar - Car Images edition with AI 🎨", 
     description: "Advanced AI powered mobile app that lets you customize your car using photos and artificial intelligence",
     image: "/images/projects/modycar.jpg",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://apps.apple.com/us/app/car-mods-tuning-modycar/id6758662835",
   },
@@ -64,7 +72,7 @@ const projectsData = [
     title: "Mechanic AI Web Application 🔧",
     description: "AI-powered Mechanical Assistant 🧑‍🔧 for diagnosing car and mechanical issues from photos and text.",
     image: "/images/projects/mechanicapp.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://iautofix.com/",
   },
@@ -73,7 +81,7 @@ const projectsData = [
     title: "Daily Text Assistant Web App 💻",
     description: "Boosting productivity and saving time with efficient task management 📝",
     image: "/images/projects/dailytask3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "https://github.com/omarhd994",
     previewUrl: "https://dictadaily.iautofix.com/en/ai-ask-me-assistant",
   },
@@ -199,6 +207,11 @@ const ProjectsSection = () => {
           name="All"
           isSelected={tag === "All"}
         />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="AI"
+            isSelected={tag === "AI"}
+          />
         <ProjectTag
           onClick={handleTagChange}
           name="Web"
