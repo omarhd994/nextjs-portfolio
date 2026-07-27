@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>LLMs, AI Agents, RAG Pipelines & Natural Language Processing (NLP)</li>
-        <li>Python, JavaScript, React, React Native, Node.js & SQL</li>
-        <li>LangChain, LangGraph, Pinecone, ChromaDB, PySpark, Pandas</li>
-        <li>OpenAI, Gemini, Hugging Face, OpenCode & Claude Code</li>
-        <li>VS Code, Claude Code, Open Code, Git, Make, Vercel & Netlify</li>
-        <li>Product Strategy, UI/UX, Cloud, App Store Connect, Google Play Console</li>
+        <li>Python, FastAPI, JavaScript, React, React Native, Node.js & SQL</li>
+        <li>LangGraph, LangChain, LangSmith, MCP, Pinecone, Redis, RAG</li>
+        <li>OpenAI, Gemini, Hugging Face, Multimodal AI (Image, STT & TTS), APIs</li>
+        <li>Docker, Git, CI/CD, AWS, Render, Vercel, Authentication & SlowAPI</li>
+        <li>PySpark, ETL/ELT, AI Architecture, LLMOps & n8n</li>
+        <li>Product Strategy, UI/UX, Cloud, App Store Connect & Google Play Console</li>
       </ul>
     ),
   },
@@ -68,15 +68,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg mb-4">
-            I’m a multilingual <strong>AI Engineer & Product Builder</strong> specializing in designing, building, and deploying <strong>LLM-powered applications, AI agents, NLP systems, and SaaS products</strong>. I combine software engineering, AI, and product thinking to transform complex business problems into scalable, production-ready solutions with measurable business impact.
+            I’m a multilingual <strong>AI Engineer & Product Builder</strong> specializing in designing, building, and deploying <strong>production-ready AI applications, agentic systems, and SaaS products</strong>. I combine software engineering, AI, and product thinking to transform complex business problems into scalable solutions with measurable business impact.
           </p>
 
           <p className="text-base lg:text-lg mb-4">
-            My experience spans <strong>Generative AI, Natural Language Processing (NLP), Retrieval-Augmented Generation (RAG), vector databases, AI orchestration, data platforms, and full-stack development</strong>. I build end-to-end AI systems, from document ingestion and semantic retrieval to AI agents, backend services, mobile applications, and intuitive user experiences.
+            My experience spans <strong>Generative AI, Retrieval-Augmented Generation (RAG), multimodal AI, AI agents, vector databases, AI orchestration, ETL/ELT data pipelines, and full-stack development</strong>. I build end-to-end systems, from document ingestion and semantic retrieval to AI agents, backend services, mobile applications, and production deployments.
           </p>
 
           <p className="text-base lg:text-lg mb-4">
-            I hold a Master’s in Web and Mobile Development and certifications in <strong>AI Engineering, Software, Data, and Product Management</strong>, enabling me to bridge business strategy with technical execution and deliver user-centric AI products.
+            I hold a Master’s in Web and Mobile Development and certifications in <strong>AI Engineering, Software Development, Data Engineering, and Product Management</strong>, enabling me to bridge business strategy with technical execution and deliver user-centric products.
           </p>
 
           <p className="text-base lg:text-lg mb-4">

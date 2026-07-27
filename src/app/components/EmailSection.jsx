@@ -57,19 +57,19 @@ const EmailSection = () => {
         </h5>
        <>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          <strong>Passionate about building AI products.</strong> I combine software engineering, AI, and product thinking to design and deliver scalable applications powered by LLMs, NLP, RAG pipelines, and AI agents.
+          <strong>Passionate about building AI products.</strong> I combine software engineering, AI, and product thinking to design, build, and deploy production-ready AI applications, agentic systems, and intelligent features that solve real business problems.
         </p>
 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I enjoy building end-to-end AI systems, from document ingestion, vector databases, semantic search, and backend services to intuitive web and mobile experiences that solve real business problems.
+          I enjoy building end-to-end AI solutions, from data ingestion, ETL/ELT pipelines, vector databases, semantic retrieval, and backend services to intuitive web, mobile, and SaaS applications powered by LLMs, RAG, AI agents, and multimodal AI.
         </p>
 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Experienced in Python, React, React Native, Node.js, Hugging Face Transformers, LangChain, LangGraph, OpenAI, Gemini, and modern AI architectures, combining engineering expertise with product strategy to deliver scalable, production-ready solutions.
+          Experienced in Python, FastAPI, React, React Native, LangGraph, LangChain, OpenAI, Gemini, Pinecone, Redis, Docker, and modern AI architectures, building scalable, production-ready applications with a strong focus on product quality and user experience.
         </p>
 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I enjoy collaborating with cross-functional teams, continuously learning new AI technologies, and building innovative products that create measurable business impact. Let&apos;s connect and build something great together!
+          I enjoy collaborating with cross-functional teams, exploring new AI technologies, and turning ideas into reliable products that deliver measurable business value. Let&apos;s build something great together!
         </p>
       </>
 

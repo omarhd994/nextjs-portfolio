@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Multilingual AI Engineer & Product Builder with hands-on experience building LLM-powered applications, NLP systems, AI agents, and scalable software solutions that deliver measurable business impact.
+            AI Engineer & Product Builder focused on designing, building, and deploying production-ready AI applications for web, mobile, and SaaS products using LLMs, AI agents, RAG, multimodal AI, and modern software engineering practices.
           </p>
           <div>
             <Link
