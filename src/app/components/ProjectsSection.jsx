@@ -32,6 +32,15 @@ const projectsData = [
     previewUrl: "https://apps.apple.com/us/app/your-mechanic-ai-fixiocar/id6754289570",
   },
   {
+    id: 13,
+    title: "Earthquake Data Pipeline 🌍",
+    description: "Scalable Azure data pipeline using Data Factory, Databricks, and Synapse to process global earthquake data.",
+    image: "/images/projects/earthquake.png",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/omarhd994/Earthquake-azure-data-pipeline",
+    previewUrl: "/",
+  },
+  {
     id: 2,
     title: "AuraCV - CV Insights & Improvements 💼", 
     description: "Mobile app delivering personalized CV insights, actionable improvements, skill certifications, and tailored job recommendations",
@@ -50,6 +59,15 @@ const projectsData = [
     previewUrl: "https://apps.apple.com/us/app/car-mods-tuning-modycar/id6758662835",
   },
   {
+    id: 14,
+    title: "Data Warehouse Project 🗂️",
+    description: "Designed a layered data warehouse with SQL and ETL pipelines to enable clean reporting and analysis.",
+    image: "/images/projects/on-prem.png",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/omarhd994/Data-Warehouse-SQL-Project",
+    previewUrl: "/",
+  },
+  {
     id: 4,
     title: "Maternity Mobile App for New Parents 🤰",
     description: "Maternity App for new parents 🤱 with advice, follow-up, and 24/7 chatbot support 💬.",
@@ -59,13 +77,13 @@ const projectsData = [
     previewUrl: "https://play.google.com/store/apps/details?id=com.tuempresa.pregnanttt",
   },
   {
-  "id": 5,
-  "title": "AI Motorcycle Mechanic 🏍️🔧",
-  "description": "AI-powered Motorcycle Assistant 🧑‍🔧 for instant diagnostics, parts identification, repair recommendations, inspection history, and maintenance tracking.",
-  "image": "/images/projects/motoscanner.jpg",
-  "tag": ["All", "Mobile"],
-  "gitUrl": "https://github.com/omarhd994",
-  "previewUrl": "https://play.google.com/store/apps/details?id=bike.scanner.ai&hl="
+    id: 5,
+    title: "AI Motorcycle Mechanic 🏍️🔧",
+    description: "AI-powered Motorcycle Assistant 🧑‍🔧 for instant diagnostics, parts identification, repair recommendations, inspection history, and maintenance tracking.",
+    image: "/images/projects/motoscanner.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/omarhd994",
+    previewUrl: "https://play.google.com/store/apps/details?id=bike.scanner.ai&hl="
   },
   {
     id: 6,
@@ -128,24 +146,6 @@ const projectsData = [
     image: "/images/projects/on-prem-azure.png",
     tag: ["All", "Data"],
     gitUrl: "https://github.com/omarhd994/migrating-on-prem-database-to-azure",
-    previewUrl: "/",
-  },
-  {
-    id: 13,
-    title: "Earthquake Data Pipeline 🌍",
-    description: "Scalable Azure data pipeline using Data Factory, Databricks, and Synapse to process global earthquake data.",
-    image: "/images/projects/earthquake.png",
-    tag: ["All", "Data"],
-    gitUrl: "https://github.com/omarhd994/Earthquake-azure-data-pipeline",
-    previewUrl: "/",
-  },
-  {
-    id: 14,
-    title: "Data Warehouse Project 🗂️",
-    description: "Designed a layered data warehouse with SQL and ETL pipelines to enable clean reporting and analysis.",
-    image: "/images/projects/on-prem.png",
-    tag: ["All", "Data"],
-    gitUrl: "https://github.com/omarhd994/Data-Warehouse-SQL-Project",
     previewUrl: "/",
   },
   {
